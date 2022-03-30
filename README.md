@@ -6,8 +6,8 @@ bin2asm is a program that converts .bin files into NASM source code. To be more 
 
 bin2asm &lt;.bin file to convert&gt; &lt;.asm file for output&gt;
 
-## Installation
+## Building
 
-To install bin2asm using APT, you need to write:
+To build, just execute:
 
-`sudo apt install bin2asm`
+`gcc main.c -o bin2asm`
